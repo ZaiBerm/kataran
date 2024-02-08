@@ -1,0 +1,48 @@
+body {
+  height: 100dvh;
+  background-color: rgb(244, 173, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -30px;
+  z-index: 100;
+}
+
+.image-con img {
+  width: 15%;
+  cursor: pointer;
+  transform: translateY(120%);
+
+  transition: transform 1.2s;
+}
+
+
+.content {
+  background-color: cornsilk;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(236, 194, 163);
+  padding: 40px;
+  text-align: center;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0;
+
+  transition: opacity 1s;
+}
+
+
